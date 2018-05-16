@@ -1,17 +1,17 @@
 exports.config = {
-  namespace: 'mycomponent',
-  outputTargets:[
-    { 
-      type: 'dist' 
-    },
-    { 
-      type: 'www',
-      serviceWorker: false
-    }
-  ]
+	namespace: 'mycomponent',
+	outputTargets:[
+		{
+			type: 'dist'
+		},
+		{
+			type: 'www',
+			serviceWorker: false
+		}
+	]
 };
 
 exports.devServer = {
-  root: 'www',
-  watchGlob: '**/**'
+	root: 'www',
+	watchGlob: '**/**'
 }
